@@ -1,23 +1,24 @@
 <versions>
-  <component name="AbbreviationManager" version="1414614870686" />
+  <component name="AbbreviationManager" version="1427210790798" />
   <component name="AppInspectionProfilesVisibleTreeState" version="1400800119077" />
   <component name="CachedDictionaryState" version="1415823258914" />
-  <component name="CocoaPodsSettings" version="1419475460900" />
+  <component name="CocoaPodsSettings" version="1427210141187" />
   <component name="CodeStyleSchemeSettings" version="1414614870693" />
   <component name="DaemonCodeAnalyzerSettings" version="1415068048425" />
   <component name="DimensionService" version="1419311823060" />
-  <component name="EditorColorsManagerImpl" version="1414614870693" />
+  <component name="EditorColorsManagerImpl" version="1427210790800" />
   <component name="EditorSettings" version="1415068224622" />
+  <component name="EmmetOptions" version="1427210513285" />
   <component name="Encoding" version="1415068048425" />
   <component name="ExportableFileTemplateSettings" version="1414614934682" />
   <component name="ExportableTemplateSettings" version="1414013682790" />
   <component name="ExternalResourceManagerImpl" version="1415068048426" />
   <component name="FeatureUsageStatistics" version="1421889669254" />
-  <component name="FileBasedIndex" version="1414614870694" />
+  <component name="FileBasedIndex" version="1427328266895" />
   <component name="FileTypeManager" version="1415068034507" />
   <component name="FindRecents" version="1419314166419" />
   <component name="FindSettings" version="1419311955855" />
-  <component name="GemManagerSettings" version="1414614870699" />
+  <component name="GemManagerSettings" version="1427328266912" />
   <component name="GeneralSettings" version="1419342726413" />
   <component name="Git.Application.Settings" version="1419311823071" />
   <component name="GithubSettings" version="1412871583436" />
@@ -27,27 +28,30 @@
   <component name="KeymapManager" version="1414614870700" />
   <component name="LafManager" version="1419311823078" />
   <component name="NotificationConfiguration" version="1419311955857" />
-  <component name="PasswordDatabase" version="1403141501036" />
-  <component name="PluginManagerConfigurable" version="1415225731272" />
-  <component name="ProjectJdkTable" version="1419475460968" />
-  <component name="ProjectManager" version="1414614870704" />
-  <component name="PropertiesComponent" version="1416266718637" />
-  <component name="RecentDirectoryProjectsManager" version="1419342726420" />
+  <component name="OCExternalDocSettings" version="1427210513304" />
+  <component name="PasswordDatabase" version="1427210513305" />
+  <component name="PluginManagerConfigurable" version="1427328266914" />
+  <component name="ProjectJdkTable" version="1427328266918" />
+  <component name="ProjectManager" version="1427328267936" />
+  <component name="PropertiesComponent" version="1427210791611" />
+  <component name="RecentDirectoryProjectsManager" version="1427210141234" />
   <component name="Registry" version="1414614870704" />
-  <component name="StatisticsApplicationUsages" version="1421890316282" />
+  <component name="StatisticsApplicationUsages" version="1427328266927" />
+  <component name="SvnApplicationSettings" version="1427210513321" />
   <component name="SystemNotifications" version="1412783938566" />
   <component name="TemplateSettings" version="1414013682804" />
   <component name="TodoConfiguration" version="1414614870706" />
   <component name="UISettings" version="1418402102416" />
-  <component name="UpdatesConfigurable" version="1419311823101" />
-  <component name="UsageTrigger" version="1421889616388" />
+  <component name="UpdatesConfigurable" version="1427210141237" />
+  <component name="UsageTrigger" version="1427328266928" />
   <component name="UsagesStatistic" version="1421889616390" />
-  <component name="WebBrowsersConfiguration" version="1415068224640" />
+  <component name="WebBrowsersConfiguration" version="1427210242802" />
   <component name="WindowManager" version="1419475461014" />
   <component name="XDebuggerSettings" version="1415076326316" />
   <component name="XPathView.XPathViewPlugin" version="1419475461017" />
   <component name="XSLT-Support.Configuration" version="1415068034519" />
-  <component name="XcodeSettings" version="1416869335885" />
+  <component name="XcodeSettings" version="1427328266932" />
   <component name="com.intellij.ide.fileTemplates.impl.FileTemplateManagerImpl" version="1414614934692" />
   <component name="com.intellij.javaee.ExternalResourceManagerImpl" version="1414614870711" />
+  <component name="libraryTable" version="1427328266965" />
 </versions>
