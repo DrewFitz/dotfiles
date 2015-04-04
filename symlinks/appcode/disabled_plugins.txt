@@ -1,4 +1,9 @@
-TFS
+com.intellij.tasks
 CVS
+JSIntentionPowerPack
+TFS
 PerforceDirectPlugin
+com.intellij.css
+JavaScript
 XPathView
+HtmlTools
