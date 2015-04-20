@@ -33,7 +33,7 @@
 		"pkg",
 		"doc"
 	],
-	"font_face": "Fira Mono",
+	"font_face": "Panic Sans",
 	"font_size": 11,
 	"highlight_line": true,
 	"highlight_modified_tabs": true,
