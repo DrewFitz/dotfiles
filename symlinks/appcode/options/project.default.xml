@@ -1,41 +1,8 @@
 <application>
   <component name="ProjectManager">
     <defaultProject version="4">
-      <component name="DaemonCodeAnalyzer">
-        <disable_hints />
-      </component>
-      <component name="DependencyValidationManager">
-        <option name="SKIP_IMPORT_STATEMENTS" value="false" />
-      </component>
-      <component name="Encoding" useUTFGuessing="true" native2AsciiForPropertiesFiles="false" />
-      <component name="InspectionProjectProfileManager">
-        <profiles>
-          <profile version="1.0" is_locked="false">
-            <option name="myName" value="Project Default" />
-            <option name="myLocal" value="false" />
-            <inspection_tool class="CheckDtdRefs" enabled="false" level="ERROR" enabled_by_default="false" />
-            <inspection_tool class="CheckEmptyScriptTag" enabled="false" level="WARNING" enabled_by_default="false" />
-            <inspection_tool class="CheckTagEmptyBody" enabled="false" level="WARNING" enabled_by_default="false" />
-            <inspection_tool class="CheckValidXmlInScriptTagBody" enabled="false" level="ERROR" enabled_by_default="false" />
-            <inspection_tool class="CheckXmlFileWithXercesValidator" enabled="false" level="ERROR" enabled_by_default="false" />
-            <inspection_tool class="HtmlExtraClosingTag" enabled="false" level="ERROR" enabled_by_default="false" />
-            <inspection_tool class="HtmlUnknownAnchorTarget" enabled="false" level="WARNING" enabled_by_default="false" />
-            <inspection_tool class="HtmlUnknownAttribute" enabled="false" level="WARNING" enabled_by_default="false" />
-            <inspection_tool class="HtmlUnknownTag" enabled="false" level="WARNING" enabled_by_default="false" />
-            <inspection_tool class="HtmlUnknownTarget" enabled="false" level="WARNING" enabled_by_default="false" />
-            <inspection_tool class="RequiredAttributes" enabled="false" level="WARNING" enabled_by_default="false" />
-            <inspection_tool class="UnresolvedReference" enabled="false" level="ERROR" enabled_by_default="false" />
-            <inspection_tool class="XmlDuplicatedId" enabled="false" level="ERROR" enabled_by_default="false" />
-            <inspection_tool class="XmlInvalidId" enabled="false" level="ERROR" enabled_by_default="false" />
-            <inspection_tool class="XmlPathReference" enabled="false" level="ERROR" enabled_by_default="false" />
-            <inspection_tool class="XmlUnboundNsPrefix" enabled="false" level="WARNING" enabled_by_default="false" />
-            <inspection_tool class="XmlUnusedNamespaceDeclaration" enabled="false" level="WARNING" enabled_by_default="false" />
-            <inspection_tool class="XmlWrongRootElement" enabled="false" level="ERROR" enabled_by_default="false" />
-          </profile>
-        </profiles>
-        <option name="PROJECT_PROFILE" value="Project Default" />
-        <option name="USE_PROJECT_PROFILE" value="true" />
-        <version value="1.0" />
+      <component name="NamedScopeManager">
+        <order />
       </component>
       <component name="ProjectDictionaryState">
         <dictionary name="zw" />
@@ -90,9 +57,8 @@
         <property name="options.lastSelected" value="reference.idesettings.quicklists" />
         <property name="options.splitter.main.proportions" value="0.3" />
         <property name="options.splitter.details.proportions" value="0.2" />
-      </component>
-      <component name="RunManager">
-        <list size="0" />
+        <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+        <property name="settings.editor.splitter.proportion" value="0.2" />
       </component>
       <component name="SvnConfiguration">
         <configuration>$USER_HOME$/.subversion</configuration>

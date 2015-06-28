@@ -1,9 +1,10 @@
-com.intellij.tasks
+hg4idea
 CVS
-JSIntentionPowerPack
-TFS
-PerforceDirectPlugin
-com.intellij.css
-JavaScript
 XPathView
+com.intellij.css
+TFS
+JSIntentionPowerPack
+PerforceDirectPlugin
+com.intellij.tasks
+JavaScript
 HtmlTools

@@ -1,23 +1,8 @@
 <application>
   <component name="UpdatesConfigurable">
-    <option name="myPluginHosts">
-      <value>
-        <list size="0" />
-      </value>
-    </option>
-    <option name="myKnownUpdateChannels">
-      <value>
-        <list size="1">
-          <item index="0" class="java.lang.String" itemvalue="appcode_31" />
-        </list>
-      </value>
-    </option>
-    <option name="myIgnoredBuildNumbers">
-      <value>
-        <list size="0" />
-      </value>
-    </option>
-    <option name="CHECK_NEEDED" value="true" />
+    <knownUpdateChannels>
+      <item value="appcode_31" />
+    </knownUpdateChannels>
     <option name="LAST_TIME_CHECKED" value="1422045907796" />
     <option name="LAST_BUILD_CHECKED" value="OC-139.677" />
     <option name="UPDATE_CHANNEL_TYPE" value="eap" />
