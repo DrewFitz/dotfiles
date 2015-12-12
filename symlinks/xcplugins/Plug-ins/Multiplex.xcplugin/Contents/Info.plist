@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>BuildMachineOSBuild</key>
-	<string>15A263e</string>
+	<string>15C31f</string>
 	<key>CFBundleDevelopmentRegion</key>
 	<string>English</string>
 	<key>CFBundleExecutable</key>
@@ -29,23 +29,24 @@
 	<key>DTCompiler</key>
 	<string>com.apple.compilers.llvm.clang.1_0</string>
 	<key>DTPlatformBuild</key>
-	<string>7A192o</string>
+	<string>7B91b</string>
 	<key>DTPlatformVersion</key>
 	<string>GM</string>
 	<key>DTSDKBuild</key>
-	<string>15A244e</string>
+	<string>15A278</string>
 	<key>DTSDKName</key>
 	<string>macosx10.11</string>
 	<key>DTXcode</key>
-	<string>0700</string>
+	<string>0710</string>
 	<key>DTXcodeBuild</key>
-	<string>7A192o</string>
+	<string>7B91b</string>
 	<key>DVTPlugInCompatibilityUUIDs</key>
 	<array>
-		<string>AABB7188-E14E-4433-AD3B-5CD791EAD9A3</string>
+		<string>0420B86A-AA43-4792-9ED0-6FE0F2B16A13</string>
+		<string>7265231C-39B4-402C-89E1-16167C4CC990</string>
 	</array>
 	<key>NSPrincipalClass</key>
-	<string>Multiplex</string>
+	<string>MultiplexPlugin</string>
 	<key>XC4Compatible</key>
 	<true/>
 	<key>XCGCReady</key>
