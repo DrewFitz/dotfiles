@@ -15,8 +15,12 @@
 		"SublimeLinter",
 		"SublimeLinter-annotations",
 		"SublimeLinter-json",
-		"Swift for F*ing Sublime",
+		"Swift-for-f-ing-sublime",
 		"Theme - Soda",
 		"TrailingSpaces"
+	],
+	"repositories":
+	[
+		"https://github.com/colinta/Swift-for-f-ing-sublime"
 	]
 }
