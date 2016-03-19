@@ -48,15 +48,15 @@
 		"draw_active"
 	],
 	"overlay_scroll_bars": "enabled",
+	"phoenix_highlight_current_tab": true,
+	"phoenix_tabs_medium": true,
 	"remember_open_files": false,
 	"rulers":
 	[
 		80
 	],
-	"soda_classic_tabs": true,
-	"soda_folder_icons": true,
 	"tab_size": 4,
-	"theme": "Soda Dark 3.sublime-theme",
+	"theme": "Phoenix Dark.sublime-theme",
 	"trailing_spaces_include_current_line": true,
 	"translate_spaces_to_tabs": false,
 	"translate_tabs_to_spaces": false,
