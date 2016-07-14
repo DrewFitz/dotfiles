@@ -1,0 +1,1 @@
+{"commits":[{"commit":"e0e6ff0b7f10f618a3a4b2f09c58d7ad67c695cd","date":"2014-10-29T18:21:21+01:00","author":"René Schwaiger","summary":"Improve folding","body":"We now use the two new folding patterns `foldingIndentedBlockStart` and\n`foldingIndentedBlockIgnore` introduced with TextMate 2.0 to specify\nwhere folding should be possible."}],"name":"YAML"}
