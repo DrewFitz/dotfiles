@@ -1,1 +1,0 @@
-{"commits":[{"commit":"5eb4d74af54349bf76b6a414f0ccdfb591952ad4","date":"2014-07-08T21:41:52+02:00","author":"Allan Odgaard","summary":"Add hex ⇔ binary conversion functions","body":"Also “cleanup” the other conversion functions (no need to source bash init file)."}],"name":"Math"}
