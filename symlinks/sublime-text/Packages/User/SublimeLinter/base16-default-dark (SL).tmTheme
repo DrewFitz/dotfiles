@@ -3,11 +3,11 @@
 <plist version="1.0">
 <dict>
 	<key>author</key>
-	<string>Chris Kempson (http://chriskempson.com)</string>
+	<string>Template: Chris Kempson, Scheme: Chris Kempson (http://chriskempson.com)</string>
 	<key>name</key>
 	<string>Base16 Default Dark</string>
 	<key>semanticClass</key>
-	<string>base16.default.dark</string>
+	<string>theme.base16.default-dark</string>
 	<key>colorSpaceName</key>
 	<string>sRGB</string>
 	<key>gutterSettings</key>
@@ -487,7 +487,7 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#a16946</string>
+				<string>#ba8baf</string>
 			</dict>
 		</dict>
 		<dict>
@@ -574,6 +574,6 @@
             </dict>
         </dict></array>
 	<key>uuid</key>
-	<string>c40af048-b877-452d-ac24-fd9edb642438</string>
+	<string>uuid</string>
 </dict>
 </plist>

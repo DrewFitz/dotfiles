@@ -9,18 +9,20 @@
 		"Dotfiles Syntax Highlighting",
 		"Handlebars",
 		"Package Control",
+		"Pretty JSON",
 		"Protobuf Syntax Hightlighting",
 		"SCSS",
 		"SideBarEnhancements",
 		"Stringify",
 		"SublimeLinter",
 		"SublimeLinter-annotations",
+		"SublimeLinter-contrib-swiftlint",
 		"SublimeLinter-json",
-		"Swift-for-f-ing-sublime",
+		"Swift for F*ing Sublime",
 		"TrailingSpaces"
 	],
 	"repositories":
 	[
-		"https://github.com/colinta/Swift-for-f-ing-sublime"
+		"https://github.com/Dan2552/SourceKittenSubl"
 	]
 }
