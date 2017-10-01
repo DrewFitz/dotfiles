@@ -193,7 +193,7 @@ symlinks:
     'ssh/*': "~/.ssh/"
     'sh/.*': "~"
     # Sublime Text packages, themes, and configuration
-    'sublime-text/*': "~/Library/Application Support/Sublime Text 3/"
+    'sublime-text': "~/Library/Application Support/Sublime Text 3/Packages/User"
     # Xcode plugins, themes, and configuration
     'xcode/*': "~/Library/Developer/Xcode/UserData/"
     'xctemplates/*': "~/Library/Developer/Xcode/Templates/"

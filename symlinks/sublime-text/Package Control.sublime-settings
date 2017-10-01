@@ -16,6 +16,7 @@
 		"Stringify",
 		"SublimeLinter",
 		"SublimeLinter-annotations",
+		"SublimeLinter-contrib-jslint",
 		"SublimeLinter-contrib-swiftlint",
 		"SublimeLinter-json",
 		"Swift for F*ing Sublime",
