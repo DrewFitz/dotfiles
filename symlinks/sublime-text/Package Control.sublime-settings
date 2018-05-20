@@ -19,6 +19,7 @@
 		"SublimeLinter-contrib-jslint",
 		"SublimeLinter-contrib-swiftlint",
 		"SublimeLinter-json",
+		"SublimeLinter-xmllint",
 		"Swift for F*ing Sublime",
 		"TrailingSpaces"
 	],
