@@ -51,7 +51,7 @@
 		"pkg",
 		"doc"
 	],
-	"font_face": "SF Mono Regular",
+	"font_face": "SF Mono Medium",
 	"font_size": 12,
 	"highlight_line": true,
 	"highlight_modified_tabs": true,
