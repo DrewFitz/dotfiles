@@ -6,6 +6,7 @@
 	"installed_packages":
 	[
 		"Base16 Color Schemes",
+		"Decent Swift Syntax",
 		"Dotfiles Syntax Highlighting",
 		"Handlebars",
 		"Package Control",
@@ -20,7 +21,6 @@
 		"SublimeLinter-contrib-swiftlint",
 		"SublimeLinter-json",
 		"SublimeLinter-xmllint",
-		"Swift for F*ing Sublime",
 		"TrailingSpaces"
 	],
 	"repositories":
