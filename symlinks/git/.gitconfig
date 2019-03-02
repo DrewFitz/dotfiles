@@ -1,12 +1,11 @@
 # Basic
 [user]
-        name = Zachary Waldowski
-        email = zach@waldowski.me
-        signingkey = 8F2E8CD3
+        name = Drew Fitzpatrick
+        email = dfitzpatrick@bignerdranch.com
 [core]
         excludesfile = ~/.cider/git/ignore
         attributesfile = ~/.cider/git/attributes
-        editor = subl -n -w
+        editor = vim
         autocrlf = input
         pager = less -r
         whitespace = space-before-tab,-indent-with-non-tab,trailing-space
@@ -16,6 +15,7 @@
         co = checkout
         count = !git shortlog -sn
         pf = push --force-with-lease
+        tickle = commit --amend --no-edit
 [credential]
         helper = osxkeychain
 [fetch]
@@ -23,82 +23,9 @@
 [help]
         autocorrect = 1
 [push]
-        default = simple
-        followTags = true
-[status]
-        showUntrackedFiles = all
-
-# Colorization
-
-[color]
-        branch = auto
-        diff = auto
-        status = auto
-        ui = auto
-        pager = true
-        interactive = auto
-[color "branch"]
-        current = yellow reverse
-        local = yellow
-        remote = green
-[color "diff"]
-        meta = yellow bold
-        frag = magenta bold
-        old = red bold
-        new = green bold
-[color "status"]
-        added = yellow
-        changed = green
-        untracked = cyan
-[filter "media"]
-        required = true
-        clean = git media clean %f
-        smudge = git media smudge %f
-[format]
-        pretty = %Cblue%h%Creset %Cgreen[%ar]%Creset (%an) %s
-
-# GitHub
-
-[hub]
-        protocol = https
-[url "git@github.com:"]
-        insteadOf = "gh:"
-        pushInsteadOf = "github:"
-        pushInsteadOf = "git://github.com/"
-[url "https://github.com/"]
-        insteadOf = "github:"
-[url "git@gist.github.com:"]
-        insteadOf = "gst:"
-        pushInsteadOf = "gist:"
-        pushInsteadOf = "git://gist.github.com/"
-[url "git://gist.github.com/"]
-        insteadOf = "gist:"
-
-# Tooling
-
-[commit]
-        gpgSign = true
-[diff]
-        tool = Kaleidoscope
-        renames = copies
-[diff "plist"]
-        textconv = plutil -convert xml1 -o -
-[difftool]
-        prompt = false
-[difftool "Kaleidoscope"]
-        cmd = ksdiff --partial-changeset --relative-path \"$MERGED\" -- \"$LOCAL\" \"$REMOTE\"
-[merge]
-        tool = Kaleidoscope
-[mergetool]
-        prompt = false
-        keepBackup = false
-[mergetool "Kaleidoscope"]
-        cmd = ksdiff --merge --output \"$MERGED\" --base \"$BASE\" -- \"$LOCAL\" --snapshot \"$REMOTE\" --snapshot
-        trustExitCode = true
-[gpg]
-	program = /usr/local/bin/gpg
+        default = upstream
 [filter "lfs"]
+	clean = git-lfs clean -- %f
 	smudge = git-lfs smudge -- %f
 	process = git-lfs filter-process
 	required = true
-	clean = git-lfs clean -- %f

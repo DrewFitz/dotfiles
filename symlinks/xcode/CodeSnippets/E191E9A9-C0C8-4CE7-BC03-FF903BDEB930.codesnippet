@@ -12,7 +12,7 @@
 		<string>ClassInterfaceMethods</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>// FIXME: &lt;#Note#&gt;</string>
+	<string>// FIXME @DREWF: &lt;#Note#&gt;</string>
 	<key>IDECodeSnippetIdentifier</key>
 	<string>E191E9A9-C0C8-4CE7-BC03-FF903BDEB930</string>
 	<key>IDECodeSnippetLanguage</key>

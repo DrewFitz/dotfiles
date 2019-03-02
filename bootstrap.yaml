@@ -2,17 +2,8 @@
 after-scripts:
     # Use `brew bundle` to bootstrap
     - "./script/brewfile.sh"
-    # Install Ruby using rbenv, select it, and update Ruby Gems
-    - "./script/update_ruby.sh"
-    # Set DuckDuckGo as the default search engine due to limitations
-    # with Cider's defaults engine
-    - "./script/duckduckgo.sh"
-    # Hide undesired folders in ~/, including ~/bin/
-    - "./script/hide_folders.sh"
     # Get Fisherman to install packages
     - "./script/fisherman.sh"
-    # Rebind Caps Lock as Escape
-    - "./script/no-escape.sh"
 # Share configuration across machines by symlinking
 symlinks:
     # Duplicate above bootstrap for Homebrew Bundler
@@ -21,18 +12,8 @@ symlinks:
     'fish/fishfile': '~/.config/fish/'
     # Git configuration
     'git/.*': "~"
-    # GPG configuration
-    'gpg/*': "~/.gnupg/"
-    # TextMate bundles (duped to exclude update files)
-    'mate/.*': "~"
-    'mate/*': "~/Library/Application Support/TextMate/"
-    # Ruby/RubyGems; hip modern simple language and dependency manager
-    'ruby/.*': "~"
     # Unix home configuration bits
     'ssh/*': "~/.ssh/"
     'sh/.*': "~"
-    # Sublime Text packages, themes, and configuration
-    'sublime-text': "~/Library/Application Support/Sublime Text 3/Packages/User"
     # Xcode plugins, themes, and configuration
     'xcode/*': "~/Library/Developer/Xcode/UserData/"
-    'xctemplates/*': "~/Library/Developer/Xcode/Templates/"

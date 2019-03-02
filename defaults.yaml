@@ -18,7 +18,8 @@ NSGlobalDomain:
 co.gitup.mac:
     # First launch tour and other warnings
     FirstLaunch: 0
-    GIMapViewController_SkipPushBranchWarning: 1
+    GIMapViewController_SkipFetchRemoteBranchesWarning: 1
+    # GIMapViewController_SkipPushBranchWarning: 1
     HelpShown_COMMIT: 2
     HelpShown_CONFIG: 1
     HelpShown_DIFF: 1
@@ -47,7 +48,7 @@ com.apple.Safari:
     UniversalSearchFeatureNotificationHasBeenDisplayed: 1
     # User style sheet
     UserStyleSheetEnabled: 1
-    UserStyleSheetLocationURLString: /Users/zw/.cider/stylesheet.css
+    UserStyleSheetLocationURLString: /Users/drewfitzpatrick/.cider/stylesheet.css
     # Develop menu for WebKit 2 contexts
     WebKitDeveloperExtrasEnabledPreferenceKey: 1
     # Develop menu for Safari contexts
@@ -67,7 +68,7 @@ com.apple.SafariTechnologyPreview:
     UniversalSearchFeatureNotificationHasBeenDisplayed: 1
     # User style sheet
     UserStyleSheetEnabled: 1
-    UserStyleSheetLocationURLString: /Users/zw/.cider/stylesheet.css
+    UserStyleSheetLocationURLString: /Users/drewfitzpatrick/.cider/stylesheet.css
     # Develop menu for WebKit 2 contexts
     WebKitDeveloperExtrasEnabledPreferenceKey: 1
     # Develop menu for Safari contexts
@@ -84,18 +85,23 @@ com.apple.Spotlight:
     # Inhibit onboarding experience
     showedFTE: 1
     useCount: 3
-# AirPlay: Apple TV wireless streaming functionality
-com.apple.airplay:
-    # Hide menu bar icon
-    showInMenuBarIfPresent: 0
 # The little dude in the top right of the Touch Bar
 com.apple.controlstrip:
-    # Add the undocumented "media next" key, replace Siri with Screen Lock.
+    FullCustomized:
+    - com.apple.system.dictation
+    - NSTouchBarItemIdentifierFlexibleSpace
+    - com.apple.system.group.keyboard-brightness
+    - com.apple.system.group.media
+    - com.apple.system.group.volume
+    - NSTouchBarItemIdentifierFlexibleSpace
+    - com.apple.system.screencapture
+    - com.apple.system.sleep
+    - com.apple.system.screen-lock
     MiniCustomized:
     - com.apple.system.brightness
     - com.apple.system.volume
-    - com.apple.system.media-next
-    - com.apple.system.screen-lock
+    - com.apple.system.screen-saver
+    - com.apple.system.do-not-disturb
 # Finder, the Macintosh Desktop Experience
 com.apple.finder:
     # "When performing a search: Search the Current Folder"
@@ -105,37 +111,11 @@ com.apple.finder:
     # "New Finder windows show: Home folder"
     NewWindowTarget: PfHm
     # Hide everything on the Desktop
-    ShowExternalHardDrivesOnDesktop: 0
+    ShowExternalHardDrivesOnDesktop: 1
     ShowHardDrivesOnDesktop: 0
     ShowMountedServersOnDesktop: 0
-    ShowRemovableMediaOnDesktop: 0
+    ShowRemovableMediaOnDesktop: 1
 # Screen Capture: screenshotting functionality in Mac OS X
 com.apple.screencapture:
     # Don't capture blown-out Quartz window shadows
     disable-shadow: 1
-# MacDown: Open-source Markdown editor
-com.uranusjr.macdown:
-    editorAutoIncrementNumberedLists: 1
-    editorBaseFontInfo:
-        name: SFMono-Regular
-        size: 13
-    editorConvertTabs: 1
-    editorStyleName: Civic
-    htmlStyleName: GitHub2
-    htmlSyntaxHighlighting: 1
-    previewZoomRelativeToBaseFontSize: 1
-    updateIncludesPreReleases: 1
-# Transmission: brilliant native Cocoa BitTorrent client
-org.m0k.transmission:
-    # Delete *.torrent file if it exists
-    DeleteOriginalTorrent: 1
-    # Don't always ask where downloads go
-    DownloadAsk: 0
-    # Store downloads elsewhere
-    IncompleteDownloadFolder: ~/Downloads/Torrents
-    # Keep both complete and incomplete downloads in the same place
-    UseIncompleteDownloadFolder: 0
-    # Don't ask for donations again, I already have :-)
-    WarningDonate: 0
-    # Don't ask for legal CYA again
-    WarningLegal: 0

@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>fixme</string>
+	<string>deprecated</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>ClassImplementation</string>
@@ -11,15 +11,15 @@
 		<string>TopLevel</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>// FIXME: @DREWF - &lt;#Note#&gt;</string>
+	<string>@available (&lt;#iOS#&gt;, deprecated: &lt;#12#&gt;)</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>653760D4-8F4A-4703-B766-F0865A4C916F</string>
+	<string>0FC8C833-BCAD-46A1-B395-2D0EAD6A5C6F</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Swift</string>
 	<key>IDECodeSnippetSummary</key>
-	<string>Insert a fix-me note for the Xcode navigator.</string>
+	<string>Tag an API as deprecated</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>Fix-Me Mark</string>
+	<string>@available Deprecated</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

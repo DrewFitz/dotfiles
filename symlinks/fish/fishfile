@@ -1,7 +1,8 @@
-daenney/rbenv
-fishpkg/fish-git-util
+rafaelrinaldi/pure
+franciscolourenco/done
+jethrokuan/z
+oh-my-fish/plugin-bang-bang
+jethrokuan/fzf
 laughedelic/brew-completions
-~/.cider/symlinks/fish/gpg-agent
 ~/.cider/symlinks/fish/p
 ~/.cider/symlinks/fish/ql
-~/.cider/symlinks/fish/zw

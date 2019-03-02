@@ -1,5 +1,0 @@
-{
-  "env": { "RBENV_ROOT": "/usr/local/opt/rbenv"  },
-  "shell_cmd": "rbenv exec middleman build",
-  "working_dir": "$file_path"
-}
