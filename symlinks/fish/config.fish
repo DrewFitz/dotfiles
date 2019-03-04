@@ -1,0 +1,2 @@
+set -gxa PATH ~/.bin/
+

@@ -1,0 +1,4 @@
+#!/bin/bash
+
+git push --set-upstream origin $(git branch | grep "*" | awk '{print $2}')
+

@@ -10,6 +10,10 @@ symlinks:
     'brew/.*': '~'
     # Fisher manager for Fish
     'fish/fishfile': '~/.config/fish/'
+    # Custom scripts
+    'bin/*': '~/.bin/'
+    # Fish config file
+    'fish/config.fish': '~/.config/fish/'
     # Git configuration
     'git/.*': "~"
     # Unix home configuration bits
